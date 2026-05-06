@@ -1,3 +1,4 @@
+# d = {} Empty dictionary
 
 marks = {
     "Nahid": 90,
