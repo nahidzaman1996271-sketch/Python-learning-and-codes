@@ -1,4 +1,4 @@
-# Write a progam to print multiplication table of given number using loop
+# Write a progam to print multiplication table of given number using while loop
 
 n = int(input("Enter a number: "))
 
