@@ -14,6 +14,8 @@ computer = random.choice([-1, 0, 1])
 youstr = input("Enter your choice (s=Snake, w=Water, g=Gun): ")
 you = youDict[youstr]
 
+# By now we have 2 numbers (variables), you and computer
+
 print(f"You chose {reverseDict[you]}\nComputer chose {reverseDict[computer]}")
 
 if computer == you:
