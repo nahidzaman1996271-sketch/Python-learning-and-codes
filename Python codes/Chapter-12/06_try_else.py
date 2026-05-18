@@ -1,7 +1,9 @@
-a = int(input("Enter a numebr: "))
-b = int(input("Enter second numebr: "))
+try:
+    a = int(input("Hey, Enter a number: "))
+    print(a)
 
-if(b == 0):
-    raise ZeroDivisionError("Hey our program is not meant to divide numbers by zero")
+except Exception as e:
+    print(e)        
+
 else:
-    print(f"The division a/b is {a/b}")
+    print("I am inside else")    
