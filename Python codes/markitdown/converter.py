@@ -3,7 +3,7 @@ from markitdown import MarkItDown
 md = MarkItDown()
 
 # Convert PPTX
-result_pptx = md.convert(r"G:\Fourth Semester\Computer Architecture\Class Lectures slides\Com Arch Lec slide 1.pptx")
+result_pptx = md.convert(r"C:\Users\AMCS\Downloads\Cap.docx")
 print(result_pptx.markdown)
 
 # Save PPTX result
